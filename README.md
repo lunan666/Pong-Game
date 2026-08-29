@@ -1,33 +1,31 @@
 # 🏓 Pong Game
 
-一个使用 **C++** 和 **raylib** 库开发的经典乒乓球对战游戏。支持人机对战，并提供三种难度等级。
+A classic table tennis battle game developed in **C++** using the **raylib** library. Supports single-player vs AI with three difficulty levels.
 
-## 🎮 游戏特色
+## 🎮 Game Features
 
-- **AI 对手**：右侧挡板由 AI 控制，会根据球的运动轨迹自动追踪。
-- **三档难度**：在菜单界面可按 `1`（简单）、`2`（普通）、`3`（困难）调节，难度会影响 AI 的反应速度和球速。
-- **完整游戏流程**：包含开始菜单、实时计分、胜负判定和赛后重赛功能。
+- **AI Opponent**: The right paddle is controlled by an AI that automatically tracks the ball's trajectory.
+- **Three Difficulty Levels**: On the menu screen, press `1` (Easy), `2` (Normal), or `3` (Hard) to adjust the difficulty, which affects AI reaction speed and ball velocity.
+- **Complete Game Flow**: Includes a start menu, real‑time scoring, win/loss determination, and post‑match rematch functionality.
 
-## ⌨️ 操作指南
+## ⌨️ Controls
 
-| 按键 | 功能 |
+| Key | Action |
 | :--- | :--- |
-| `W` / `S` | 控制左侧挡板上下移动 |
-| `1` `2` `3` | 在菜单界面选择难度 |
-| `Enter` | 开始游戏 |
-| `R` | 在游戏结束后重新比赛 |
-| `M` | 在游戏结束后返回主菜单 |
+| `W` / `S` | Move the left paddle up/down |
+| `1` `2` `3` | Select difficulty on the menu screen |
+| `Enter` | Start the game |
+| `R` | Rematch after the game ends |
+| `M` | Return to the main menu after the game ends |
 
-## 🛠️ 技术栈
+## 🛠️ Tech Stack
 
-- **语言**：C++17
-- **图形库**：raylib 6.0
-- **开发环境**：Visual Studio 2022
+- **Language**: C++17
+- **Graphics Library**: raylib 6.0
+- **Development Environment**: Visual Studio 2022
 
-## 🚀 如何运行
+## 🚀 How to Run
 
-1.  克隆本仓库到本地。
-2.  确保 Visual Studio 已正确配置 raylib 的包含目录和库目录。
-3.  打开解决方案文件，按 `F5` 编译并运行。
-
-
+1.  Clone this repository to your local machine.
+2.  Make sure Visual Studio is properly configured with raylib's include and library directories.
+3.  Open the solution file and press `F5` to build and run.
